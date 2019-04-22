@@ -3,7 +3,7 @@ var res = document.getElementById('res');
 
 
 function startConverting () {
-                
+                ques.innerHTML='';
                 var finalTranscripts = '';
 				if('webkitSpeechRecognition' in window){
 					var speechRecognizer = new webkitSpeechRecognition();
